@@ -1,0 +1,70 @@
+.emojionearea-form-control__suggestions {
+	background-color: #2b2b2b !important;
+	border: 1px solid #00000026;
+	border-radius: 0.25rem;
+	padding: 5px 0;
+	transform: translate(20px, -100%);
+	max-height: 150px;
+	overflow-y: auto;
+}
+.emojionearea-form-control__suggestions__list li {
+	display: block;
+	width: 100%;
+	padding: 6px 10px;
+	clear: both;
+	font-weight: 400;
+	color: #c5c9dfcc;
+	text-align: inherit;
+	white-space: nowrap;
+	background-color: #0000;
+	border: 0;
+}
+.emojionearea-form-control__suggestions__list li:hover {
+	background-color: #665dfe;
+}
+.mentions {
+	margin: 1em 0;
+}
+
+.mentions--singleLine .mentions__control {
+	display: inline-block;
+	width: 130px;
+}
+.mentions--singleLine .mentions__highlighter {
+	padding: 1px;
+	border: 2px inset transparent;
+}
+.mentions--singleLine .mentions__input {
+	padding: 1px;
+	border: 2px inset;
+}
+
+.mentions--multiLine .mentions__control {
+	font-family: monospace;
+	font-size: 14pt;
+}
+.mentions--multiLine .mentions__highlighter {
+	border: 1px solid transparent;
+	padding: 9px;
+	min-height: 63px;
+}
+.mentions--multiLine .mentions__input {
+	border: 1px solid silver;
+	padding: 9px;
+	outline: 0;
+}
+
+.mentions__suggestions__list {
+	background-color: white;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	font-size: 10pt;
+}
+
+.mentions__suggestions__item {
+	padding: 5px 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.mentions__suggestions__item--focused {
+	background-color: #cee4e5;
+}
