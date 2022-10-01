@@ -1,0 +1,34 @@
+{
+	"short_name": "HCMD App",
+	"name": "HCMD Communication",
+	"icons": [
+		{
+			"src": "maskable_icon.png",
+			"sizes": "64x64 32x32 24x24 16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "maskable_icon_x192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "maskable_icon_x512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": ".",
+	"display": "fullscreen",
+	"theme_color": "#665dfe",
+	"background_color": "#ffffffff",
+	"shortcuts": [
+		{
+			"name": "Open Chat",
+			"short_name": "Chat",
+			"description": "A list of Chat with connections",
+			"url": "/chats",
+			"icons": [{ "src": "maskable_icon_x192.png", "sizes": "192x192" }]
+		}
+	]
+}
